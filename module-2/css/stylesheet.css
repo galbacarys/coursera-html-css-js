@@ -1,0 +1,73 @@
+/*  Base styles section: add correct sizing support */
+* {
+    box-sizing: border-box;
+}
+
+p {
+    
+}
+
+/* Adaptation/stealing of CSS "framework" from Lecture 24 */
+
+/* Media Query setup: for "large" devices (greater than 992 pixels)*/
+@media (min-width: 992px) {
+    .col-lg-4, .col-lg-6, .col-lg-12 {
+        float: left;
+        /* Debug purposes only */
+        border: 1px solid red;
+    }
+
+    .col-lg-4 {
+        width: 33.33%;
+    }
+
+    .col-lg-6 {
+        width: 50%;
+    }
+
+    .col-lg-12 {
+        width: 100%;
+    }
+}
+
+/* Media Query setup: for "medium" devices (768-991 pixels) */
+@media (min-width: 768px) and (max-width: 991px) {
+    .col-md-4, .col-md-6, .col-md-12 {
+        float: left;
+        /* Debug purposes only */
+        border: 1px solid green;
+    }
+
+    .col-md-4 {
+        width: 33.33%;
+    }
+
+    .col-md-6 {
+        width: 50%;
+    }
+
+    .col-md-12 {
+        width: 100%;
+    }
+}
+
+/* Media Query setup: for "small" devices (Less than 767 pixels) */
+@media (max-width: 767px) {
+    .col-sm-4, .col-sm-6, .col-sm-12 {
+        float: left;
+        /* Debug purposes only */
+        border: 1px solid blue;
+    }
+
+    .col-sm-4 {
+        width: 33.33%;
+    }
+
+    .col-sm-6 {
+        width: 50%;
+    }
+
+    .col-sm-12 {
+        width: 100%;
+    }
+}
