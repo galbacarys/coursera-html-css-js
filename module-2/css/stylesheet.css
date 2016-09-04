@@ -1,10 +1,48 @@
-/*  Base styles section: add correct sizing support */
+/*  Base styles section */
 * {
     box-sizing: border-box;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+.content-box {
+    padding: 5px;
 }
 
 p {
-    
+    position: relative;
+    padding-top: 2.5em;
+    padding-left: .5em;
+    padding-bottom: .5em;
+    padding-right: .5em;
+    margin: 0;
+    border: 1px solid black;
+    background-color: #cccccc;
+}
+
+.section-title {
+    position: absolute;
+    top: 0;
+    right: 0px;
+    margin: 0;
+    font-size: 2em;
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+span#beef {
+    background-color: red;
+}
+
+span#chicken {
+    background-color: tan;
+}
+
+span#sushi {
+    background-color: pink;
 }
 
 /* Adaptation/stealing of CSS "framework" from Lecture 24 */
@@ -13,8 +51,6 @@ p {
 @media (min-width: 992px) {
     .col-lg-4, .col-lg-6, .col-lg-12 {
         float: left;
-        /* Debug purposes only */
-        border: 1px solid red;
     }
 
     .col-lg-4 {
@@ -34,8 +70,6 @@ p {
 @media (min-width: 768px) and (max-width: 991px) {
     .col-md-4, .col-md-6, .col-md-12 {
         float: left;
-        /* Debug purposes only */
-        border: 1px solid green;
     }
 
     .col-md-4 {
@@ -55,8 +89,6 @@ p {
 @media (max-width: 767px) {
     .col-sm-4, .col-sm-6, .col-sm-12 {
         float: left;
-        /* Debug purposes only */
-        border: 1px solid blue;
     }
 
     .col-sm-4 {
