@@ -1,0 +1,41 @@
+#nav-list {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+#header-nav.navbar {
+    background-color: #bbb;
+}
+
+#brand {
+    color: #000;
+}
+
+.menu-item {
+    background-color: #eee;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    border: 1px solid #777;
+}
+
+#collapsable-nav {
+    margin-left: -15px;
+    margin-right: -15px;
+}
+
+#content {
+    background-color: #bbb;
+    box-sizing: border-box;
+    padding: 10px;
+    margin: 10px;
+    width: auto;
+}
+
+
+@media (max-width: 767px) {
+    #content {
+        margin: 40px;
+    }
+}
